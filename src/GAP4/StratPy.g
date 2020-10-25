@@ -11,7 +11,7 @@ GetASC := function ( G )
   R := rec();
 
   R.nrPoints := LargestMovedPoint(Grp);
-  R.basepoints := G.base;
+  R.basepoints := A.base;
 
   R.generators := G.generators;
   R.abstractGenerators := G.abstractGenerators;
